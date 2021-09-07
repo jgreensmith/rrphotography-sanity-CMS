@@ -8,6 +8,8 @@ import wildlife from './wildlife'
 import landscape from './landscape'
 import cyanotype from './cyanotype'
 import blackwhite from './blackwhite'
+import post from './post'
+import blockContent from './blockContent'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -20,6 +22,8 @@ export default createSchema({
     wildlife,
     landscape,
     cyanotype,
-    blackwhite
+    blackwhite,
+    post,
+    blockContent
   ]),
 })
