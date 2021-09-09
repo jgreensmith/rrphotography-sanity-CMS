@@ -9,6 +9,12 @@ export default {
         type: 'string',
       },
       {
+        name: 'subTitle',
+        title: 'Sub Title',
+        type: 'string',
+        description: 'brief summary of blog',
+      },
+      {
         name: 'slug',
         title: 'Slug',
         type: 'slug',
@@ -28,7 +34,7 @@ export default {
       {
         name: 'publishedAt',
         title: 'Published at',
-        type: 'datetime',
+        type: 'string',
       },
       {
         name: 'body',
